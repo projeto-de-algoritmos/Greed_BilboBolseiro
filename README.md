@@ -10,7 +10,7 @@
 
 
 ## Sobre 
-Este projeto utiliza o algoritmo ambicioso Knapsack para ajudar o hobbit Bilbo Bolseiro a escolher as melhores comidas para levar em sua jornada. 
+Este projeto utiliza o algoritmo ambicioso Knapsack para ajudar o hobbit Bilbo Bolseiro a escolher as melhores comidas para levar em sua jornada inesperada. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
