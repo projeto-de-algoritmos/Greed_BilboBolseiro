@@ -1,9 +1,22 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
-  );
-}
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './pages/Home';
+import Bag from './pages/Bag';
+import './styles/global.css';
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/bag',
+    element: <Bag />,
+  }
+]); 
+
+export default function App()
+{
+  return(
+    <RouterProvider router={ router } />
+  );
+};
