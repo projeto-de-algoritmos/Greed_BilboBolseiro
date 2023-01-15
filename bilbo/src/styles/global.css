@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'bilbo-hand';
+  src: local('bilbo-hand'), url(../assets/fonts/BilboHandRegular-L3MZ.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'middleearth';
+  src: local('middleearth'), url(../assets/fonts/Middleearth-ao6m.ttf) format('truetype');
+}
+
+:root {
+  --brown: #645b2a;
+  --baige: #cdb771;
+  --green: #b2b45f;
+  --grey: #ada098;
+}
+
+* {
+  color: var(--brown);
+  padding: 0;
+  margin: 0;
+  font-family: 'middleearth', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body, #root, .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  background: var(--green);
+}
