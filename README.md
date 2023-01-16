@@ -13,19 +13,24 @@
 Este projeto utiliza o algoritmo ambicioso Knapsack para ajudar o hobbit Bilbo Bolseiro a escolher as melhores comidas para levar em sua jornada inesperada. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![page1](./assets/page1.png)
+![page2](./assets/page2.png)
+![page3](./assets/page3.png)
+![page4](./assets/page4.png)
+
 
 ## Instalação 
 **Linguagem**: JavaScript<br>
-**Framework**: React<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Framework**: ReactJS<br>
+Para rodar o projeto é necessário inicialmente rodar os seguintes comandos: 
+
+    cd bilbo
+    npm install
+    npm start
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Após acessar o projeto no browser, o usuário irá encontrar uma página com algumas informações que o encaminhará para organizar a mochila de Bilbo Bolseiro. Já na página de organização, ele poderá informar a capacidade da mochila e adicionar quais alimentos deseja levar, a quantidade e calorias de cada um. A partir daí o algoritmo irá retornar a melhor mochila com o maior número de calorias. 
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
+## Vídeo 
+O vídeo explicando o projeto pode ser acessado através da pasta assets na raiz do projeto após a clonagem do repositório.
 
