@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import './styles.css';
 import Form from '../../components/Form';
 import Input from '../../components/Input';
+import { knapsack } from '../../utils/knapsack';
 
 export default function Bag()
 {
@@ -10,8 +11,12 @@ export default function Bag()
   const [itens, setItens] = useState([]);
   const [limit, setLimit] = useState(0);
   const [bag, setBag] = useState([]);
+  const [calories, setCalories] = useState(0);
 
   function handleSubmit() {
+    const { orderedItensList, totalCalories } = knapsack(itens, limit);
+    setBag(orderedItensList);
+    setCalories(totalCalories);
     setModalOpen(true);
   };
 
@@ -37,12 +42,12 @@ export default function Bag()
         onRequestClose={() => setModalOpen(false)}
         contentLabel="Example Modal"
       >
+        <p>{ calories }</p>
         { bag.map( (item) => {
         return(
           <div>
             <p>{ item.name }</p>
             <p>{ item.amount }</p>
-            <p>{ item.calories }</p>
           </div>
         );
       } ) }
