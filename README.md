@@ -22,7 +22,7 @@ Este projeto utiliza o algoritmo ambicioso Knapsack para ajudar o hobbit Bilbo B
 ## Instalação 
 **Linguagem**: JavaScript<br>
 **Framework**: ReactJS<br>
-Para rodar o projeto é necessário inicialmente rodar os seguintes comandos: 
+Para rodar o projeto é necessário após a clonagem do repositório e dentro da raiz do projeto rodar os seguintes comandos: 
 
     cd bilbo
     npm install
