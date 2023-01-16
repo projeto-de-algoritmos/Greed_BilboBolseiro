@@ -23,15 +23,16 @@ export default function Home() {
         onRequestClose={() => setModalOpen(false)}
         contentLabel="Example Modal"
       >
-        <div>
+        <div className='home-modal'>
           <p>Thorin e Companhia para o Ladrão Bilbo, saudações!
+            <br />
             Pela sua hospitalidade, nossos mais sinceros agradecimentos,
             e pela sua oferta de ajuda profissional, nossa agradecida aceitação.
             Julgando desnecessário perturbar seu precioso repouso,
             partimos na frente para fazer os preparativos necessários,
             e estaremos no aguardo de sua respeitável pessoa na Estalagem Dragão Verde,
             em Beirágua, às onze horas da manhã em ponto. Contamos com sua pontualidade.
-            Respeitosamente, Thorin & Cia </p>
+            <br /> Respeitosamente, Thorin & Cia </p>
           <Link to='/bag'>Preparar mochila</Link>
         </div>
         <img src={bilbo} />

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Input from '../Input';
+import './styles.css';
 
 export default function Form({ onSubmit }) {
   const [item, setItem] = useState({});
